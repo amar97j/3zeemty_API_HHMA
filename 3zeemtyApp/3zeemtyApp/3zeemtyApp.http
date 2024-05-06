@@ -1,0 +1,6 @@
+@_3zeemtyApp_HostAddress = http://localhost:5186
+
+GET {{_3zeemtyApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

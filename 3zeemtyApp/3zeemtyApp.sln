@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3zeemtyApp", "3zeemtyApp\3zeemtyApp.csproj", "{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3xeemtyMVC", "3xeemtyMVC\3xeemtyMVC.csproj", "{2F580D65-8B05-4ABE-AE58-0D315330786B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F580D65-8B05-4ABE-AE58-0D315330786B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F580D65-8B05-4ABE-AE58-0D315330786B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F580D65-8B05-4ABE-AE58-0D315330786B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F580D65-8B05-4ABE-AE58-0D315330786B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5CA0ECA-073F-425A-B461-7F0713F1BFC2}
+	EndGlobalSection
+EndGlobal
