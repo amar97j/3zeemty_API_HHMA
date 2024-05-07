@@ -26,5 +26,17 @@ namespace BankFrontEnd.Controllers
             return View(caterer);
         }
 
+
+        public async Task<IActionResult> Bookings(int id)
+        {
+            var booking = await _client.GetBookings(id);
+            return View(booking);
+        }
+
+        public async Task<IActionResult> AddToCart(int id)
+        {
+            var booking = await _client.SaveBookings(id);
+            return RedirectToAction("Bookings");
+        }
     }
 }

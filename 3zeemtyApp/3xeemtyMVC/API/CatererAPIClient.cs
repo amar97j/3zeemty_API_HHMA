@@ -4,6 +4,8 @@ using ProductApi.Models;
 using ProductApi.Models.Responses;
 using Microsoft.AspNetCore.Identity.Data;
 using ProductApi.Models.Requests;
+using _3zeemtyApp.Models.Responses;
+using _3zeemtyApp.Models.Requests;
 
 namespace BankFrontEnd.API
 {
@@ -32,6 +34,22 @@ namespace BankFrontEnd.API
                 .GetFromJsonAsync<CatererResponse>($"api/caterer/Details/{id}");
             return response;
         }
+
+        public async Task<List<BookingResponce>> GetBookings(int id)
+        {
+            var bookresponse = await _api
+                .GetFromJsonAsync<List<BookingResponce>>($"api/caterer/booking");
+            return bookresponse;
+        }
+
+        public async Task<bool> SaveBookings(int id)
+        {
+       await _api.PostAsJsonAsync("api/caterer/cart", new BookingRequest { CatererId = id, Name = "" });
+            
+
+            return true;
+        }
+
         public async Task<bool> Register(SignupRequest request)
         {
             var response = await _api.PostAsJsonAsync("/api/login/Registor", request);

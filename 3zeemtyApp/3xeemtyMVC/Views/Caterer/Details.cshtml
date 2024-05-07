@@ -1,10 +1,99 @@
-﻿@using ProductApi.Models.Responses
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model ProductApi.Models.Responses.CatererResponse
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caterer Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ff00cc;
+            background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+            background: linear-gradient(to right, #333399, #ff00cc);
+        }
 
-@model CatererResponse
-<h1> @Model.Name</h1>
 
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .caterer-details {
+            display: flex;
+            width: 100%;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .caterer-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .caterer-info {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .caterer-name {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .caterer-type, .caterer-description {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .book-button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+            .book-button:hover {
+                background-color: #e64a8e;
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="caterer-details">
+            <img class="caterer-image" src="@Model.ImagePath" alt="@Model.Name" />
+            <div class="caterer-info">
+                <div class="caterer-name">@Model.Name</div>
+                <div class="caterer-type">@Model.Type</div>
+                <div class="caterer-description">@Model.Description</div>
+                <a href="@Url.Action("AddToCart", "Caterer", new { id = Model.Id })" class="book-button">Book</a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

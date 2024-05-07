@@ -60,7 +60,7 @@ namespace BankFrontEnd.Controllers
                 HttpContext.Session.SetString("Token", jwtToken);
                 HttpContext.Response.Cookies.Append("Token", jwtToken);
 
-                return Redirect("/Bank/Index");
+                return Redirect("/Caterer/Index");
             }
 
 

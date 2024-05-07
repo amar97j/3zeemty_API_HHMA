@@ -3,40 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\caterer\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\caterer\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\caterer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\caterer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\caterer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\caterer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\responses\\bookingresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\responses\\bookingresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\controllers\\caterercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\controllers\\caterercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\responses\\catererresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\responses\\catererresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\entites\\catercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\entites\\catercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\requests\\addcaterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\requests\\addcaterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\api\\catererapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\api\\catererapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\controllers\\caterercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\controllers\\caterercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\requests\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\requests\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\entites\\catercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\entites\\catercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\shared\\_loginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\shared\\_loginview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\entites\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\entites\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\migrations\\20240505091122_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\migrations\\20240505091122_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\responses\\catererresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\responses\\catererresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506113741_Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:3zeemtyApp\\Migrations\\20240506113741_Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\requests\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\requests\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\requests\\addcaterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\requests\\addcaterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\services\\tokenclaimsconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\services\\tokenclaimsconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\3zeemtyapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\3zeemtyapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\account\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\account\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\migrations\\20240505122333_updatecater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\migrations\\20240505122333_updatecater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\models\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\models\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,14 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3xeemtymvc\\views\\caterer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F580D65-8B05-4ABE-AE58-0D315330786B}|3xeemtyMVC\\3xeemtyMVC.csproj|solutionrelative:3xeemtymvc\\views\\caterer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|c:\\users\\83320\\desktop\\3zeemty_api_hhma\\3zeemtyapp\\3zeemtyapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1283D-C7F9-4E0C-8874-DC1456DDD97B}|3zeemtyApp\\3zeemtyApp.csproj|solutionrelative:3zeemtyapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,76 +142,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240505122333_UpdateCater.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
-              "RelativeToolTip": "3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:23:33.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CatererResponse.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
-              "RelativeToolTip": "3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:54:29.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignupRequest.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\SignupRequest.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Requests\\SignupRequest.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\SignupRequest.cs",
-              "RelativeToolTip": "3zeemtyApp\\Models\\Requests\\SignupRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:01:40.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CatererController.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\CatererController.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Controllers\\CatererController.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\CatererController.cs",
-              "RelativeToolTip": "3zeemtyApp\\Controllers\\CatererController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAlwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:51:01.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Index.cshtml",
               "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Caterer\\Index.cshtml",
               "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Index.cshtml",
               "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-05T12:14:32.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Bookings.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Caterer\\Bookings.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Bookings.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Bookings.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T12:09:33.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "BookingResponce.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\BookingResponce.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Responses\\BookingResponce.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\BookingResponce.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Responses\\BookingResponce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T11:19:59.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T12:30:01.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T05:28:56.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T11:53:02.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CatererAPIClient.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\API\\CatererAPIClient.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\API\\CatererAPIClient.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\API\\CatererAPIClient.cs",
+              "RelativeToolTip": "3xeemtyMVC\\API\\CatererAPIClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:12:04.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CatererController.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\CatererController.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Controllers\\CatererController.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\CatererController.cs",
+              "RelativeToolTip": "3xeemtyMVC\\Controllers\\CatererController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwB8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:51:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CaterContext.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\CaterContext.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Entites\\CaterContext.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\CaterContext.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Entites\\CaterContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:54:32.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CatererController.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\CatererController.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Controllers\\CatererController.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\CatererController.cs",
+              "RelativeToolTip": "3zeemtyApp\\Controllers\\CatererController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:51:01.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginView.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Shared\\_LoginView.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Shared\\_LoginView.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Shared\\_LoginView.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Shared\\_LoginView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T14:07:28.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\Booking.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Entites\\Booking.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\Booking.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Entites\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:40:33.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240505091122_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505091122_InitialCreate.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Migrations\\20240505091122_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505091122_InitialCreate.cs",
+              "RelativeToolTip": "3zeemtyApp\\Migrations\\20240505091122_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:04:23.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "3xeemtyMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:17:35.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CatererResponse.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Responses\\CatererResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:54:29.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240506113741_Booking.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506113741_Booking.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Migrations\\20240506113741_Booking.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506113741_Booking.cs",
+              "RelativeToolTip": "3zeemtyApp\\Migrations\\20240506113741_Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T11:37:41.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\BookingRequest.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Requests\\BookingRequest.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\BookingRequest.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Requests\\BookingRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T10:53:12.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AddCaterRequest.cs",
               "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\AddCaterRequest.cs",
               "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Requests\\AddCaterRequest.cs",
@@ -144,73 +380,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CaterContext.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\CaterContext.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Entites\\CaterContext.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Entites\\CaterContext.cs",
-              "RelativeToolTip": "3zeemtyApp\\Models\\Entites\\CaterContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBcAAAANAAAA",
+              "DocumentIndex": 18,
+              "Title": "TokenClaimsConstant.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Services\\TokenClaimsConstant.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Services\\TokenClaimsConstant.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Services\\TokenClaimsConstant.cs",
+              "RelativeToolTip": "3zeemtyApp\\Services\\TokenClaimsConstant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:54:32.59Z",
+              "WhenOpened": "2024-05-06T10:57:24.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CatererController.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\CatererController.cs",
-              "RelativeDocumentMoniker": "3xeemtyMVC\\Controllers\\CatererController.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\CatererController.cs",
-              "RelativeToolTip": "3xeemtyMVC\\Controllers\\CatererController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:51:50.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Program.cs",
-              "RelativeDocumentMoniker": "3zeemtyApp\\Program.cs",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Program.cs",
-              "RelativeToolTip": "3zeemtyApp\\Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwCIAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:56:57.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\appsettings.json",
-              "RelativeDocumentMoniker": "3zeemtyApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\appsettings.json",
-              "RelativeToolTip": "3zeemtyApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\appsettings.json",
+              "RelativeToolTip": "3xeemtyMVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-05T11:57:17.31Z",
+              "WhenOpened": "2024-05-06T08:15:43.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "3zeemtyApp\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T10:57:23.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "3zeemtyApp\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Controllers\\LoginController.cs",
               "RelativeToolTip": "3zeemtyApp\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T11:51:06.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "3zeemtyApp",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAALUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T06:04:29.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Program.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Program.cs",
+              "RelativeToolTip": "3xeemtyMVC\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:13:14.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "3zeemtyApp.csproj",
               "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\3zeemtyApp.csproj",
               "RelativeDocumentMoniker": "3zeemtyApp\\3zeemtyApp.csproj",
               "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\3zeemtyApp.csproj",
@@ -222,16 +471,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
-              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
-              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
-              "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T11:53:02.276Z",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "3xeemtyMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:59:28.389Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Denied.cshtml",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Denied.cshtml",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Views\\Account\\Denied.cshtml",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Views\\Account\\Denied.cshtml",
+              "RelativeToolTip": "3xeemtyMVC\\Views\\Account\\Denied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T08:03:31.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "3xeemtyMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3xeemtyMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "3xeemtyMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T05:40:37.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240506065713_UpdateService.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs",
+              "RelativeToolTip": "3zeemtyApp\\Migrations\\20240506065713_UpdateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:57:14.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240505122333_UpdateCater.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
+              "RelativeToolTip": "3zeemtyApp\\Migrations\\20240505122333_UpdateCater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:23:33.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Models\\Requests\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Models\\Requests\\UserLoginRequest.cs",
+              "RelativeToolTip": "3zeemtyApp\\Models\\Requests\\UserLoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T05:43:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Program.cs",
+              "RelativeDocumentMoniker": "3zeemtyApp\\Program.cs",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\Program.cs",
+              "RelativeToolTip": "3zeemtyApp\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwCIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:56:57.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\appsettings.json",
+              "RelativeDocumentMoniker": "3zeemtyApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\83320\\Desktop\\3zeemty_API_HHMA\\3zeemtyApp\\3zeemtyApp\\appsettings.json",
+              "RelativeToolTip": "3zeemtyApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T11:57:17.31Z"
             }
           ]
         }

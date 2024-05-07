@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using _3zeemtyApp.Models.Requests;
+using _3zeemtyApp.Models.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductApi.Models;
 using ProductApi.Models.Entites;
 using ProductApi.Models.Requests;
 using ProductApi.Models.Responses;
+using ProductApi.Services;
 
 namespace ProductApi.Controllers
 {
@@ -17,7 +20,7 @@ namespace ProductApi.Controllers
         {
             _context = context;
         }
-        
+
         [HttpGet]
         public PageListResult<CatererResponse> GetAll(int page = 1, string search = "")
         {
@@ -35,7 +38,7 @@ namespace ProductApi.Controllers
             }
 
             return _context.Cateres
-                .Where(r=> r.Name.StartsWith(search))
+                .Where(r => r.Name.StartsWith(search))
                 .Select(b => new CatererResponse
                 {
                     Description = b.Description,
@@ -47,6 +50,52 @@ namespace ProductApi.Controllers
                 }).ToPageList(page, 50);
 
         }
+
+        [HttpPost("Cart")]
+        [Authorize]
+        public ActionResult CreateBook(BookingRequest bookingRequest) {
+            var cater = _context.Cateres.Find(bookingRequest.CatererId);
+
+            var userId = int.Parse(User.FindFirst(TokenClaimsConstant.UserId).Value);
+
+            var userBook = _context.UserAccounts.Find(userId);
+
+            var newBooking = new Booking();
+            newBooking.IsBooked = false;
+            newBooking.CatererService = cater;
+            newBooking.DateOnly = DateOnly.FromDateTime(DateTime.Now);
+            newBooking.Name = bookingRequest.Name;
+            newBooking.User = userBook;
+
+
+            _context.Bookings.Add(newBooking);
+            _context.SaveChanges();
+
+            return Ok();
+
+        }
+
+        [HttpGet("Booking")]
+        [Authorize]
+        public ActionResult<List <BookingResponce>> GetBookings(int id)
+        {
+            var userId = int.Parse(User.FindFirst(TokenClaimsConstant.UserId).Value);
+
+            var boooking = _context.Bookings.Where(t=> t.User.Id == userId);
+
+            return boooking
+                 .Select(b => new BookingResponce
+                 {
+                     CatererService = b.CatererService.Name,
+                     Name = b.Name,
+                     Date = b.DateOnly,
+                 }).ToList();
+
+                 }
+
+      
+
+
         [HttpGet("Details/{id}")]
         [ProducesResponseType(typeof(CatererResponse), 200)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -65,7 +114,7 @@ namespace ProductApi.Controllers
                 Type = cater.Type,  
                 Name = cater.Name,
                 Id = cater.Id,
-
+                ImagePath = cater.Image,
 
               
             });

@@ -36,8 +36,7 @@ namespace ProductApi.Controllers
         {
            
             var newUser = UserAEntity.Create(request.Username, request.Password, request.IsAdmin);
-            //newUser.Username = request.Username;
-            //newUser.Password = request.Password;
+            
             context.UserAccounts.Add(newUser);
             context.SaveChanges();
 

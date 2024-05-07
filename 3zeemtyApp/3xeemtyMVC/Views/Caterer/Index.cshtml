@@ -1,21 +1,102 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<ProductApi.Models.Responses.CatererResponse>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caterer List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ff00cc;
+            background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+            background: linear-gradient(to right, #333399, #ff00cc);
+        }
 
-@model List<ProductApi.Models.Responses.CatererResponse>
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            box-sizing: border-box;
+            
+        }
 
-<div action="container">
-    @foreach(var cater in Model)
-    {
-        <div class="card col-3">
+        .caterer {
+            width: calc(50% - 20px);
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
 
-            <div class="card-body">
-                <img src="@cater.ImagePath" />
+            .caterer:hover {
+                transform: translateY(-5px);
+            }
+
+        .caterer-details {
+            display: flex;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .caterer-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+
+        .caterer-info {
+            flex: 1;
+        }
+
+        .caterer-name {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+            margin-bottom: 5px;
+        }
+
+            .caterer-name:hover {
+                color: #ff00cc;
+            }
+
+        .caterer-type, .caterer-description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        @foreach (var caterer in Model)
+        {
+            <div class="caterer">
+                <div class="caterer-details">
+                    <img class="caterer-image" src="@caterer.ImagePath" alt="@caterer.Name" />
+                    <div class="caterer-info">
+                        <a class="caterer-name" href="/Caterer/details/@caterer.Id">@caterer.Name</a>
+                        <div class="caterer-type">@caterer.Type</div>
+                        <div class="caterer-description">@caterer.Description</div>
+                    </div>
+                </div>
             </div>
+        }
+    </div>
+</body>
+</html>
 
-        </div>
-    }
- 
-</div>
+
+
