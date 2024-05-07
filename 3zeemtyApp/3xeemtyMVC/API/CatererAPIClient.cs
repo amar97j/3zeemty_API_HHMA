@@ -16,15 +16,20 @@ namespace BankFrontEnd.API
         {
             _api = factory.CreateClient("catererApi");
 
-            var token = accessor.HttpContext.Session.GetString("Token");
+            accessor.HttpContext.Request.Cookies.TryGetValue("token", out string token);
             _api.DefaultRequestHeaders.Authorization =
                           new AuthenticationHeaderValue("Bearer", token);
         }
 
-        public async Task<PageListResult<CatererResponse>> GetCaterer()
+        public async Task<PageListResult<CatererResponse>> GetCaterer(string Search="")
         {
+            var url = "api/caterer";
+            if (Search != "")
+            {
+                url += $"?search={Search}";
+            }
             var response = await _api
-                .GetFromJsonAsync<PageListResult<CatererResponse>>("api/caterer");
+                .GetFromJsonAsync<PageListResult<CatererResponse>>(url);
             return response;
         }
 

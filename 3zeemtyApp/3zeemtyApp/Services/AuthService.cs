@@ -50,7 +50,7 @@ namespace ProductApi.Services
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30), // Expire
+                expires: DateTime.Now.AddYears(1), // Expire
                 signingCredentials: credentials);
             var generatedToken = new JwtSecurityTokenHandler().WriteToken(token);
             return (true, generatedToken);

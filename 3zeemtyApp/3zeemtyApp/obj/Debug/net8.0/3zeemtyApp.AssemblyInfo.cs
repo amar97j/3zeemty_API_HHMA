@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3zeemtyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65f04b23c3306322cff22e0f5e8e69a456d2733c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d990eda919c4c71b49bd40d853569410ff644621")]
 [assembly: System.Reflection.AssemblyProductAttribute("3zeemtyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3zeemtyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

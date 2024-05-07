@@ -1,5 +1,7 @@
 ﻿@using _3zeemtyApp.Models.Responses
 @model List<BookingResponce>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,12 +93,15 @@
                     </div>
                     <div class="booking-buttons">
                         <button class="btn btn-danger">Delete</button>
-                        <button class="btn btn-primary">Payment</button>
+                       
                     </div>
                 </div>
             </div>
         }
-    </div>
 
+        <button class="btn btn-primary" onclick="window.location.href = 'PaymentPage';">Payment</button>
+
+    </div>
+   
 </body>
 </html>

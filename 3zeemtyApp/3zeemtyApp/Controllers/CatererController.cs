@@ -21,24 +21,47 @@ namespace ProductApi.Controllers
             _context = context;
         }
 
+        //[HttpGet]
+        //public PageListResult<CatererResponse> GetAll(int page = 1, string search = "")
+        //{
+        //    if (search == "")
+        //    {
+        //        return _context.Cateres
+        //        .Select(b => new CatererResponse
+        //        {
+        //            Description = b.Description,
+        //            Type = b.Type,
+        //            Name = b.Name,
+        //            Id = b.Id,
+        //            ImagePath = b.Image
+        //        }).ToPageList(page, 50);
+        //    }
+
+        //    return _context.Cateres
+        //        .Where(r => r.Name.StartsWith(search))
+        //        .Select(b => new CatererResponse
+        //        {
+        //            Description = b.Description,
+        //            Type = b.Type,
+        //            Name = b.Name,
+        //            Id = b.Id,
+        //            ImagePath = b.Image
+
+        //        }).ToPageList(page, 50);
+
+        ////}
+        ///
         [HttpGet]
         public PageListResult<CatererResponse> GetAll(int page = 1, string search = "")
         {
-            if (search == "")
+            IQueryable<CatererstEntity> query = _context.Cateres;
+
+            if (!string.IsNullOrEmpty(search))
             {
-                return _context.Cateres
-                .Select(b => new CatererResponse
-                {
-                    Description = b.Description,
-                    Type = b.Type,
-                    Name = b.Name,
-                    Id = b.Id,
-                    ImagePath = b.Image
-                }).ToPageList(page, 50);
+                query = query.Where(r => r.Name.Contains(search));
             }
 
-            return _context.Cateres
-                .Where(r => r.Name.StartsWith(search))
+            return query
                 .Select(b => new CatererResponse
                 {
                     Description = b.Description,
@@ -46,11 +69,9 @@ namespace ProductApi.Controllers
                     Name = b.Name,
                     Id = b.Id,
                     ImagePath = b.Image
-
-                }).ToPageList(page, 50);
-
+                })
+                .ToPageList(page, 50);
         }
-
         [HttpPost("Cart")]
         [Authorize]
         public ActionResult CreateBook(BookingRequest bookingRequest) {

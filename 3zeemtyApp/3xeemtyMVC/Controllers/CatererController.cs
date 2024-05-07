@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductApi.Models;
 using System.Net.Http.Headers;
+using System.Runtime.CompilerServices;
 
 namespace BankFrontEnd.Controllers
 {
@@ -14,8 +15,14 @@ namespace BankFrontEnd.Controllers
         {
             _client = client;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string Search="")
         {
+
+            if (!string.IsNullOrEmpty(Search))
+            {
+                var caterer1 = await _client.GetCaterer(Search);
+                return View(caterer1.Data);
+            }
             var caterer = await _client.GetCaterer();
             return View(caterer.Data);
         }
@@ -38,5 +45,12 @@ namespace BankFrontEnd.Controllers
             var booking = await _client.SaveBookings(id);
             return RedirectToAction("Bookings");
         }
+
+        public IActionResult PaymentPage(int id)
+        {
+
+            return View(PaymentPage);
+        }
+
     }
 }
