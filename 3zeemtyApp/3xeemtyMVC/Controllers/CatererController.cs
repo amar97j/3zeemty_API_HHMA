@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductApi.Models;
+using ProductApi.Services;
 using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 
@@ -45,11 +46,35 @@ namespace BankFrontEnd.Controllers
             var booking = await _client.SaveBookings(id);
             return RedirectToAction("Bookings");
         }
-
+       
         public IActionResult PaymentPage(int id)
         {
 
             return View(PaymentPage);
+        }
+
+
+      
+        public async Task<IActionResult> DeleteBooking(int id)
+        {
+            var userId = int.Parse(User.FindFirst(TokenClaimsConstant.UserId).Value);
+
+            var booking = await _client.GetBookings(id);
+
+            if (booking == null )
+            {
+                return NotFound();
+            }
+
+            await _client.DeleteBooking(id);
+
+            return RedirectToAction("Bookings");
+        }
+
+        public async Task<IActionResult> Profile(int id)
+        {
+            var profile = await _client.GetProfile(id);
+            return View(profile);
         }
 
     }

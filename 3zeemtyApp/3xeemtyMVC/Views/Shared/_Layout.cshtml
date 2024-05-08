@@ -161,6 +161,10 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Caterer" asp-action="Index">Caterer</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Caterer" asp-action="Profile">Profile</a>
+                        </li>
                         <li class="nav-item">
                             @(await Html.PartialAsync("_LoginView"))
                         </li>
@@ -186,3 +190,5 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+

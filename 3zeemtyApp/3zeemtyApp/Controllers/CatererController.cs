@@ -21,36 +21,6 @@ namespace ProductApi.Controllers
             _context = context;
         }
 
-        //[HttpGet]
-        //public PageListResult<CatererResponse> GetAll(int page = 1, string search = "")
-        //{
-        //    if (search == "")
-        //    {
-        //        return _context.Cateres
-        //        .Select(b => new CatererResponse
-        //        {
-        //            Description = b.Description,
-        //            Type = b.Type,
-        //            Name = b.Name,
-        //            Id = b.Id,
-        //            ImagePath = b.Image
-        //        }).ToPageList(page, 50);
-        //    }
-
-        //    return _context.Cateres
-        //        .Where(r => r.Name.StartsWith(search))
-        //        .Select(b => new CatererResponse
-        //        {
-        //            Description = b.Description,
-        //            Type = b.Type,
-        //            Name = b.Name,
-        //            Id = b.Id,
-        //            ImagePath = b.Image
-
-        //        }).ToPageList(page, 50);
-
-        ////}
-        ///
         [HttpGet]
         public PageListResult<CatererResponse> GetAll(int page = 1, string search = "")
         {
@@ -110,11 +80,29 @@ namespace ProductApi.Controllers
                      CatererService = b.CatererService.Name,
                      Name = b.Name,
                      Date = b.DateOnly,
+                     Id = b.Id
                  }).ToList();
 
                  }
 
-      
+        [HttpDelete("Booking/{id}")]
+        [Authorize]
+        public ActionResult DeleteBooking(int id)
+        {
+            var userId = int.Parse(User.FindFirst(TokenClaimsConstant.UserId).Value);
+
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == id && b.User.Id == userId);
+
+            if (booking == null)
+            {
+                return NotFound();
+            }
+
+            _context.Bookings.Remove(booking);
+            _context.SaveChanges();
+
+            return Ok();
+        }
 
 
         [HttpGet("Details/{id}")]
@@ -140,6 +128,9 @@ namespace ProductApi.Controllers
               
             });
         }
+
+
+       
 
         [HttpPatch("{id}")]
         public IActionResult Edit(int id, AddCaterRequest req)
@@ -173,6 +164,8 @@ namespace ProductApi.Controllers
 
             return CreatedAtAction(nameof(Details), new { Id = newCater.Id }, newCater);
         }
+
+
         [HttpDelete("{id}")]
         [Authorize(Roles ="Admin")]
         public IActionResult Delete(int id)

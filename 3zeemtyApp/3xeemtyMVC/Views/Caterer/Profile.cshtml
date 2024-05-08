@@ -1,16 +1,14 @@
 ﻿@using _3zeemtyApp.Models.Responses
-@model List<BookingResponce>
-
+ @model UserResponse
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking List</title>
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,6 +22,38 @@
         .container {
             width: 90%;
             margin: 20px auto;
+        }
+
+        .profile {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-details {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-info {
+            margin-left: 20px;
+        }
+
+        .profile-name {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         .booking {
@@ -56,54 +86,23 @@
             color: #666;
             margin-bottom: 5px;
         }
-
-        .btn {
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            text-decoration: none;
-        }
-
-        .btn-danger {
-            background-color: #ff3366;
-            color: white;
-        }
-
-        .btn-primary {
-            background-color: #ff80bf;
-            color: white;
-        }
-
-        .btn:hover {
-            background-color: #ff4d94;
-        }
-
-        .book-button {
-            background-color: #ff69b4;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            text-decoration: none;
-            margin-top: 10px;
-            display: inline-block;
-        }
-
-            .book-button:hover {
-                background-color: #e64a8e;
-            }
     </style>
 </head>
 <body>
 
     <div class="container">
-        @foreach (var booking in Model)
+        <div class="profile">
+            <div class="profile-details">
+                <img class="profile-image" src="https://www.svgrepo.com/show/316857/profile-simple.svg" alt="Profile Image">
+                <div class="profile-info">
+                    <div class="profile-name">@Model.Name</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Booking History</h2>
+
+        @foreach (var booking in Model.Bookings)
         {
             <div class="booking">
                 <div class="booking-details">
@@ -112,18 +111,11 @@
                         <div class="booking-service">@booking.CatererService</div>
                         <div class="booking-date">@booking.Date</div>
                     </div>
-                    <div class="booking-buttons">
-                        <a href="/Caterer/DeleteBooking/@booking.Id" class="book-button">Delete <i class="bi bi-trash-fill"></i> </a>
-                       
-                    </div>
                 </div>
             </div>
         }
-        <button class="btn btn-primary" onclick="window.location.href = 'PaymentPage';">
-            <i class="bi bi-credit-card-fill"> PAY</i> 
-        </button>
-
     </div>
-   
+
 </body>
 </html>
+

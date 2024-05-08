@@ -40,6 +40,13 @@ namespace BankFrontEnd.API
             return response;
         }
 
+        public async Task<UserResponse> GetProfile(int id)
+        {
+            var response = await _api
+                .GetFromJsonAsync<UserResponse>($"api/Login/Profile");
+            return response;
+        }
+
         public async Task<List<BookingResponce>> GetBookings(int id)
         {
             var bookresponse = await _api
@@ -77,6 +84,16 @@ namespace BankFrontEnd.API
                 return token;
             }
             return "";
+        }
+
+        public async Task DeleteBooking(int id)
+        {
+            var response = await _api.DeleteAsync($"/api/caterer/booking/{id}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new Exception("Failed to delete booking.");
+            }
         }
     }
 }
