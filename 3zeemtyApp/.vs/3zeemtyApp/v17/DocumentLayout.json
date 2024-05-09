@@ -191,8 +191,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-05T12:14:32.797Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -217,8 +216,7 @@
               "RelativeToolTip": "3zeemtyApp\\Models\\Responses\\BookingResponce.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T11:19:59.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T11:19:59.186Z"
             },
             {
               "$type": "Document",
@@ -230,8 +228,7 @@
               "RelativeToolTip": "3xeemtyMVC\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T12:30:01.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T12:30:01.817Z"
             },
             {
               "$type": "Document",
@@ -243,8 +240,7 @@
               "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Bookings.cshtml",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T12:09:33.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T12:09:33.127Z"
             },
             {
               "$type": "Document",
@@ -256,8 +252,7 @@
               "RelativeToolTip": "3xeemtyMVC\\Views\\Caterer\\Details.cshtml",
               "ViewState": "AQIAAE4AAAAAAAAAAAAAAFcAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T11:53:02.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T11:53:02.276Z"
             },
             {
               "$type": "Document",
@@ -269,8 +264,7 @@
               "RelativeToolTip": "3xeemtyMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T06:04:29.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T06:04:29.286Z"
             },
             {
               "$type": "Document",
@@ -282,8 +276,7 @@
               "RelativeToolTip": "3zeemtyApp\\Models\\Entites\\CatererstEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T06:44:46.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T06:44:46.335Z"
             },
             {
               "$type": "Document",
@@ -295,8 +288,7 @@
               "RelativeToolTip": "3zeemtyApp\\Controllers\\CatererController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwBoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:51:01.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T11:51:01.9Z"
             },
             {
               "$type": "Document",
